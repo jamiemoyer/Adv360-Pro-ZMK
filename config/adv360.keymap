@@ -59,6 +59,16 @@
     macros {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <51 33>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
