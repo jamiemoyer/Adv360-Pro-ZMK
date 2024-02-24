@@ -54,7 +54,7 @@
 
         tilde {
             bindings = <&kp TILDE>;
-            key-positions = <51 33>;
+            key-positions = <32 50>;
             layers = <0>;
         };
 
@@ -70,7 +70,17 @@
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <15 16>;
+            key-positions = <18 32>;
+        };
+
+        hyper-left {
+            bindings = <&kp LS(LA(LC(LEFT_GUI)))>;
+            key-positions = <32 31>;
+        };
+
+        right-hyper {
+            bindings = <&kp RS(RA(RC(RGUI)))>;
+            key-positions = <41 42>;
         };
     };
 
